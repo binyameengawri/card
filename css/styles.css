@@ -1,0 +1,50 @@
+body {
+    background-color: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3 {
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.Card {
+    display: block;
+    justify-content: center;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px #f9f9f9;
+    transform: rotate(5deg);
+}
+
+.Card:hover {
+    transform: rotate(0deg);
+}
+
+.image {
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.header {
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    width: 94%;
+    padding: 1rem;
+    margin-top: 13.5rem;
+    justify-content: start;
+    align-items:    end;
+    border-top: 1px solid blue;
+    background-color: blue;
+    border-radius: 0 0 30px 30px;
+}
